@@ -25,3 +25,15 @@ let age1 = 21;
 let birth1 = age1>= 45 ? "Senior" : age1 >= 20 ? "Adult" : "child";
 
 console.log(birth1);
+
+
+
+
+//  the ternary operator 
+
+
+let pen = 15;
+
+let buy = pen >= 100 ? "Powerfull" : pen >= 20 ? "Low Pen" : "Good pen";
+console.log(buy);
+
