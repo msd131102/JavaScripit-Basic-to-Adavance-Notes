@@ -65,3 +65,15 @@ console.log(discount);
 let num = 10;
 let parity = num % 2 === 0 ? "Even" : "Odd";
 console.log(parity);
+
+// Challenge 3: Boss Level (Nested Ternary)
+// This one mimics your "Age" code from earlier. You need to check three possibilities in one line.
+
+// Goal: Create a variable speedStatus.
+
+// Logic: 1. If speed is more than 100, status is "Too Fast". 2. If speed is between 60 and 100, status is "Normal". 3. If speed is less than 60, status is "Too Slow".
+
+// JavaScript
+let speed = 55;
+let speedStatus = speed >=100 ? "Too Fast" : speed >=60 ? "Normal" : "Too Slow";
+console.log(speedStatus);
