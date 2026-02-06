@@ -43,3 +43,18 @@ for(k=5;k<60;k++){
         console.log(k);
     }
 }
+
+
+// Problem 4: The Accumulator (Total Sum)
+// This one is tricky! Create a variable called total = 0. Use a loop to add every number from 1 to 10 into that total variable.
+
+// Goal: After the loop finishes, console.log(total) should show 55.
+
+// Hint: Inside the loop, use total = total + i;.
+
+
+let total = 0;
+for(let i=1;i<=10;i++){
+    total = total + i;
+}
+console.log(total)
