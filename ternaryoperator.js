@@ -37,3 +37,31 @@ let pen = 15;
 let buy = pen >= 100 ? "Powerfull" : pen >= 20 ? "Low Pen" : "Good pen";
 console.log(buy);
 
+
+// /// the ternary operator is going on condition? = experation ? : experation2 ? : 
+
+
+// Challenge 1: The Discount Calculator
+// You have a variable totalBill. You want to give a discount if the customer spends a lot of money.
+
+// Goal: Create a variable discount.
+
+// Logic: If totalBill is 100 or more, discount should be 20. Otherwise, discount should be 0.
+
+let totalBill = 80;
+let discount = totalBill >= 100 ? 20 : 0;
+
+console.log(discount);
+
+
+// Challenge 2: Odd or Even?
+// You have a variable num. Use the remainder operator (%) inside your ternary to check if a number is even or odd.
+
+// Goal: Create a variable parity.
+
+// Logic: If num % 2 is 0, parity should be "Even". Otherwise, it should be "Odd".
+
+// JavaScript
+let num = 10;
+let parity = num % 2 === 0 ? "Even" : "Odd";
+console.log(parity);
