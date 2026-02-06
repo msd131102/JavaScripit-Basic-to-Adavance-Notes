@@ -17,3 +17,11 @@ else{
 }
 
 console.log(birth); // OUTPUT SENIOR
+
+
+// the simple in the ternary operator
+
+let age1 = 21;
+let birth1 = age1>= 45 ? "Senior" : age1 >= 20 ? "Adult" : "child";
+
+console.log(birth1);
