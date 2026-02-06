@@ -26,3 +26,20 @@ for(i=2;i<=10;i++){
         console.log(i)
     }
 }
+
+
+
+// Problem 3: The Multiplier (Table of 5)
+// Write a loop that calculates and prints the 5 times table up to 12.
+
+// Goal: Output should look like 5, 10, 15 ... 60.
+
+// Logic: Use a loop that runs from 1 to 12, and inside the loop, multiply the current number by 5.
+
+let k = 5;
+
+for(k=5;k<60;k++){
+    if(k % 5 === 0){
+        console.log(k);
+    }
+}
