@@ -111,3 +111,38 @@ for(f=10;f>=1; f--){
     if(f % 2 === 0)
     console.log(f);
 }
+
+
+// Problem 1: The "Double Up" Challenge
+// In this loop, instead of adding a number, you will multiply the counter by 2 every time the loop runs.
+
+// Goal: Start at 1 and keep doubling the number until you reach or pass 100.
+
+// Output should look like: 1, 2, 4, 8, 16, 32, 64
+
+// Hint: In the third part of your for loop, use i *= 2 instead of i++.
+
+// Condition: Use i < 100.
+
+
+let g;
+for(g=1;g <100;g *= 2){
+    console.log(g);
+}
+
+
+// Problem 2: The 3-Table Filter
+// Write a loop that counts from 1 to 30. However, you only want to print the numbers that belong to the 3 times table.
+
+// Goal: Print 3, 6, 9, 12 ... 30.
+
+// Constraint: You must use an if statement inside the loop with the remainder operator %.
+
+// Logic: if (i % 3 === 0)
+
+
+let l;
+for(l=3;l<=30;l++){
+    if(l % 3 === 0)
+    console.log(l);
+}
